@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alex's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+
+    <!-- Landing page -->
+    <div id="landing">
+      <h1>Hey, I'm Alex</h1>
+      <p>Welcome to my corner of the internet.</p>
+      <button id="aboutBtn">More About Me</button>
+    </div>
+
+    <div id="ripple"></div>
+
+    <!-- Portfolio — revealed after ripple covers the screen -->
+    <div id="portfolio">
+      <div class="left-panel">
+        <div class="left-inner">
+          <div class="left-top">
+            <h1 class="p-name">Alex</h1>
+            <h2 class="p-title">Title Placeholder</h2>
+            <p class="p-bio">Short bio placeholder. A sentence or two about who you are and what you do.</p>
+            <img src="AlexHeadshot.jpg" alt="Alex" class="headshot" />
+          </div>
+
+          <nav class="p-nav">
+            <a href="#about"    class="nav-link active">About</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#research" class="nav-link">Research</a>
+          </nav>
+
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="GitHub">GitHub</a>
+            <a href="#" class="social-link" aria-label="LinkedIn">LinkedIn</a>
+            <a href="#" class="social-link" aria-label="Twitter">Twitter</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="right-panel">
+        <section id="about" class="section">
+          <h2 class="section-label">About</h2>
+          <p>Placeholder text for the about section. This is where you'll describe your background, interests, and what drives you.</p>
+          <p>More placeholder content. Add as much or as little as you like here.</p>
+        </section>
+
+        <section id="projects" class="section">
+          <h2 class="section-label">Projects</h2>
+          <div class="card">
+            <h3 class="card-title">Project Placeholder</h3>
+            <p class="card-desc">Brief description of this project. What it does, what technologies you used, and what problem it solves.</p>
+            <div class="tags">
+              <span class="tag">Tag 1</span>
+              <span class="tag">Tag 2</span>
+              <span class="tag">Tag 3</span>
+            </div>
+          </div>
+          <div class="card">
+            <h3 class="card-title">Project Placeholder</h3>
+            <p class="card-desc">Brief description of this project. What it does, what technologies you used, and what problem it solves.</p>
+            <div class="tags">
+              <span class="tag">Tag 1</span>
+              <span class="tag">Tag 2</span>
+            </div>
+          </div>
+          <div class="card">
+            <h3 class="card-title">HoosHungry</h3>
+            <p class="card-desc">Built at HooHacks in a team of 3. A student meal-exchange marketplace where buyers request meals and sellers fulfill them using extra dining swipes — both sides track the order from request through pickup and completion.</p>
+            <div class="tags">
+              <span class="tag">React</span>
+              <span class="tag">Vite</span>
+              <span class="tag">ASP.NET Core</span>
+              <span class="tag">Supabase</span>
+            </div>
+            <div class="card-links">
+              <a href="https://github.com/AlexAlajmi/HoosHungry" class="card-link" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <a href="https://www.youtube.com/watch?v=W-Gr6ZOkuhY" class="card-link" target="_blank" rel="noopener noreferrer">Demo Video</a>
+              <a href="https://devpost.com/software/hooshungry-pqnaby" class="card-link" target="_blank" rel="noopener noreferrer">DevPost</a>
+            </div>
+          </div>
+        </section>
+
+        <section id="research" class="section">
+          <h2 class="section-label">Research</h2>
+          <div class="card">
+            <h3 class="card-title">Research Topic Placeholder</h3>
+            <p class="card-desc">Brief description of this research. What question you're exploring and what approach you're taking.</p>
+            <div class="tags">
+              <span class="tag">Topic 1</span>
+              <span class="tag">Topic 2</span>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
